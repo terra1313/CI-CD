@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "hello Gihthub action CI/CD"
+echo "Hello Gihthub action CI/CD"
