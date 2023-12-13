@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 
-echo "hello Gihthub action CI/CD, my first job"
+echo "hello Gihthub action CI/CD"
