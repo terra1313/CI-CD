@@ -9,7 +9,7 @@ COPY requirements.txt .
 COPY load_model.sh .
 COPY config.py .
 COPY app.py .
-COPY src /app/src
+COPY src/ ./src
 
 # load model
 # RUN mkdir -p src
