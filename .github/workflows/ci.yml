@@ -27,18 +27,18 @@ jobs:
     - name: Build and push backend image
       uses: docker/build-push-action@v5
       with:
-        context: ./backend
+        context: ./detect-object-api
         file: ./detect-object-api/Dockerfile
         push: true
-        tags: terra1313/detect-backend:terra1313
-
+        tags: terra1313/detect-backend:v1
 
     - name: Build and push frontend image
       uses: docker/build-push-action@v5
       with:
-        context: ./frontend
+        context: ./detect-object-frontend
         file: ./detect-object-frontend/Dockerfile
         push: true
-        tags: terra1313/detect-frontend:terra1313
+        tags: terra1313/detect-frontend:v1
+
 
 
